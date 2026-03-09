@@ -11,13 +11,12 @@ ML project predicting customer purchase amounts from a 550 K‑row retail data
    - Evaluate using MSE, R², MAPE; RandomForest performed best (~54.9 % R², 0.35 % MAPE).
 4. **Output**  
    - Generate `submission.csv` with predicted purchase amounts.
-# libraries used
--pandas
--numpy
--seaborn
-matplotlib
--sklearn modules:
-        preprocessing.LabelEncoder
+  ## libraries used
+   - pandas
+   - numpy
+   - seaborn
+   - matplotlib
+   - sklearn modules: preprocessing.LabelEncoder
         model_selection (cross_val_score, train_test_split)
         metrics (mean_squared_error, r2_score, mean_absolute_percentage_error)
         regressors (LinearRegression, DecisionTreeRegressor, RandomForestRegressor, ExtraTreesRegressor)
